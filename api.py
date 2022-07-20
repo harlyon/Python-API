@@ -45,7 +45,7 @@ students = {
 }
 
 # GET ALL STUDENTS
-@app.get('/')
+@app.get('/students')
 def index():
     return students
 
